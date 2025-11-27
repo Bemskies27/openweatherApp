@@ -108,4 +108,5 @@ def forecast(city):
                          forecast=result.get("forecast", []))
 
 if __name__ == "__main__":
+
     app.run(debug=True)
